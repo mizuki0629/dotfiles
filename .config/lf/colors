@@ -1,0 +1,298 @@
+# vim:ft=dircolors
+# (This is not a dircolors file but it helps to highlight colors and comments)
+
+# default values from dircolors
+# (entries with a leading # are not implemented in lf)
+# #no     00              # NORMAL
+# fi      00              # FILE
+# #rs     0               # RESET
+# di      01;34           # DIR
+# ln      01;36           # LINK
+# #mh     00              # MULTIHARDLINK
+# pi      40;33           # FIFO
+# so      01;35           # SOCK
+# #do     01;35           # DOOR
+# bd      40;33;01        # BLK
+# cd      40;33;01        # CHR
+# or      40;31;01        # ORPHAN
+# #mi     00              # MISSING
+# su      37;41           # SETUID
+# sg      30;43           # SETGID
+# #ca     30;41           # CAPABILITY
+# tw      30;42           # STICKY_OTHER_WRITABLE
+# ow      34;42           # OTHER_WRITABLE
+# st      37;44           # STICKY
+# ex      01;32           # EXEC
+
+# default values from lf (with matching order)
+# ln      01;36   # LINK
+# or      31;01   # ORPHAN
+# tw      01;34   # STICKY_OTHER_WRITABLE
+# ow      01;34   # OTHER_WRITABLE
+# st      01;34   # STICKY
+# di      01;34   # DIR
+# pi      33      # FIFO
+# so      01;35   # SOCK
+# bd      33;01   # BLK
+# cd      33;01   # CHR
+# su      01;32   # SETUID
+# sg      01;32   # SETGID
+# ex      01;32   # EXEC
+# fi      00      # FILE
+
+# file types (with matching order)
+ln      01;36   # LINK
+or      31;01   # ORPHAN
+tw      34      # STICKY_OTHER_WRITABLE
+ow      34      # OTHER_WRITABLE
+st      01;34   # STICKY
+di      01;34   # DIR
+pi      33      # FIFO
+so      01;35   # SOCK
+bd      33;01   # BLK
+cd      33;01   # CHR
+su      01;32   # SETUID
+sg      01;32   # SETGID
+ex      01;32   # EXEC
+fi      00      # FILE
+
+# archives or compressed (dircolors defaults)
+*.tar   01;31
+*.tgz   01;31
+*.arc   01;31
+*.arj   01;31
+*.taz   01;31
+*.lha   01;31
+*.lz4   01;31
+*.lzh   01;31
+*.lzma  01;31
+*.tlz   01;31
+*.txz   01;31
+*.tzo   01;31
+*.t7z   01;31
+*.zip   01;31
+*.z     01;31
+*.dz    01;31
+*.gz    01;31
+*.lrz   01;31
+*.lz    01;31
+*.lzo   01;31
+*.xz    01;31
+*.zst   01;31
+*.tzst  01;31
+*.bz2   01;31
+*.bz    01;31
+*.tbz   01;31
+*.tbz2  01;31
+*.tz    01;31
+*.deb   01;31
+*.rpm   01;31
+*.jar   01;31
+*.war   01;31
+*.ear   01;31
+*.sar   01;31
+*.rar   01;31
+*.alz   01;31
+*.ace   01;31
+*.zoo   01;31
+*.cpio  01;31
+*.7z    01;31
+*.rz    01;31
+*.cab   01;31
+*.wim   01;31
+*.swm   01;31
+*.dwm   01;31
+*.esd   01;31
+
+# image formats (dircolors defaults)
+*.jpg   01;35
+*.jpeg  01;35
+*.mjpg  01;35
+*.mjpeg 01;35
+*.gif   01;35
+*.bmp   01;35
+*.pbm   01;35
+*.pgm   01;35
+*.ppm   01;35
+*.tga   01;35
+*.xbm   01;35
+*.xpm   01;35
+*.tif   01;35
+*.tiff  01;35
+*.png   01;35
+*.svg   01;35
+*.svgz  01;35
+*.mng   01;35
+*.pcx   01;35
+*.mov   01;35
+*.mpg   01;35
+*.mpeg  01;35
+*.m2v   01;35
+*.mkv   01;35
+*.webm  01;35
+*.ogm   01;35
+*.mp4   01;35
+*.m4v   01;35
+*.mp4v  01;35
+*.vob   01;35
+*.qt    01;35
+*.nuv   01;35
+*.wmv   01;35
+*.asf   01;35
+*.rm    01;35
+*.rmvb  01;35
+*.flc   01;35
+*.avi   01;35
+*.fli   01;35
+*.flv   01;35
+*.gl    01;35
+*.dl    01;35
+*.xcf   01;35
+*.xwd   01;35
+*.yuv   01;35
+*.cgm   01;35
+*.emf   01;35
+*.ogv   01;35
+*.ogx   01;35
+
+# audio formats (dircolors defaults)
+*.aac   00;36
+*.au    00;36
+*.flac  00;36
+*.m4a   00;36
+*.mid   00;36
+*.midi  00;36
+*.mka   00;36
+*.mp3   00;36
+*.mpc   00;36
+*.ogg   00;36
+*.ra    00;36
+*.wav   00;36
+*.oga   00;36
+*.opus  00;36
+*.spx   00;36
+*.xspf  00;36
+
+# source code (yellow)
+*.c             00;33
+*.styl          00;33
+*.sass          00;33
+*.scss          00;33
+*.htm           00;33
+*.html          00;33
+*.slim          00;33
+*.haml          00;33
+*.ejs           00;33
+*.css           00;33
+*.less          00;33
+*.md            00;33
+*.mdx           00;33
+*.markdown      00;33
+*.rmd           00;33
+*.json          00;33
+*.webmanifest   00;33
+*.js            00;33
+*.mjs           00;33
+*.jsx           00;33
+*.rb            00;33
+*.gemspec       00;33
+*.rake          00;33
+*.php           00;33
+*.py            00;33
+*.pyc           00;33
+*.pyo           00;33
+*.pyd           00;33
+*.coffee        00;33
+*.mustache      00;33
+*.hbs           00;33
+*.conf          00;33
+*.ini           00;33
+*.yml           00;33
+*.yaml          00;33
+*.toml          00;33
+*.bat           00;33
+*.mk            00;33
+*.jpg           00;33
+*.jpeg          00;33
+*.bmp           00;33
+*.png           00;33
+*.webp          00;33
+*.gif           00;33
+*.ico           00;33
+*.twig          00;33
+*.cpp           00;33
+*.c++           00;33
+*.cxx           00;33
+*.cc            00;33
+*.cp            00;33
+*.c             00;33
+*.cs            00;33
+*.h             00;33
+*.hh            00;33
+*.hpp           00;33
+*.hxx           00;33
+*.hs            00;33
+*.lhs           00;33
+*.nix           00;33
+*.lua           00;33
+*.java          00;33
+*.sh            00;33
+*.fish          00;33
+*.bash          00;33
+*.zsh           00;33
+*.ksh           00;33
+*.csh           00;33
+*.awk           00;33
+*.ps1           00;33
+*.ml            00;33
+*.mli           00;33
+*.diff          00;33
+*.db            00;33
+*.sql           00;33
+*.dump          00;33
+*.clj           00;33
+*.cljc          00;33
+*.cljs          00;33
+*.edn           00;33
+*.scala         00;33
+*.go            00;33
+*.dart          00;33
+*.xul           00;33
+*.sln           00;33
+*.suo           00;33
+*.pl            00;33
+*.pm            00;33
+*.t             00;33
+*.rss           00;33
+'*.f#'          00;33
+*.fsscript      00;33
+*.fsx           00;33
+*.fs            00;33
+*.fsi           00;33
+*.rs            00;33
+*.rlib          00;33
+*.d             00;33
+*.erl           00;33
+*.hrl           00;33
+*.ex            00;33
+*.exs           00;33
+*.eex           00;33
+*.leex          00;33
+*.heex          00;33
+*.vim           00;33
+*.ai            00;33
+*.psd           00;33
+*.psb           00;33
+*.ts            00;33
+*.tsx           00;33
+*.jl            00;33
+*.pp            00;33
+*.vue           00;33
+*.elm           00;33
+*.swift         00;33
+*.xcplayground  00;33
+*.tex           00;33
+*.r             00;33
+*.rproj         00;33
+*.sol           00;33
+*.pem           00;33

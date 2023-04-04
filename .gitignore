@@ -1,0 +1,8 @@
+.config/tmux/plugins
+.config/fish/conf.d
+.config/fish/functions
+.config/fish/completions
+.config/fish/fish_variables
+.config/systemd/user/default.target.wants
+.config/lazygit/state.yml
+__pycache__/
