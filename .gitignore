@@ -3,6 +3,7 @@
 .config/fish/functions
 .config/fish/completions
 .config/fish/fish_variables
+.config/fish/local.fish
 .config/systemd/user/default.target.wants
 .config/lazygit/state.yml
 __pycache__/

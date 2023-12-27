@@ -34,3 +34,5 @@ set -x fzf_preview_file_cmd pistol
 set -x fzf_preview_dir_cmd pistol
 set -x fzf_fd_opts --hidden
 fzf_configure_bindings --directory=\co
+
+[ -f "$__fish_config_dir/local.fish" ] && source "$__fish_config_dir/local.fish"
