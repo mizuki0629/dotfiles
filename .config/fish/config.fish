@@ -1,20 +1,26 @@
 set fish_greeting
-set -x EDITOR nvim
+set -gx EDITOR nvim
 
 fish_vi_key_bindings
 
 fish_add_path ~/go/bin
 fish_add_path ~/.cargo/bin
+fish_add_path ~/.nix-profile/bin
 
 starship init fish | source
 zoxide init fish | source
 bass (dircolors -b ~/.dir_colors)
+codex completion fish | source
+direnv hook fish | source
 
 alias ls 'eza --color=auto --icons=auto'
 
 alias dco 'docker compose'
 alias dcb 'docker compose build'
 alias dcr 'docker compose run --rm'
+
+# sccache
+set -Ux RUSTC_WRAPPER sccache
 
 # fzf
 set -x FZF_DEFAULT_OPTS \
@@ -33,6 +39,6 @@ set -x FZF_DEFAULT_OPTS \
 set -x fzf_preview_file_cmd pistol
 set -x fzf_preview_dir_cmd pistol
 set -x fzf_fd_opts --hidden
-fzf_configure_bindings --directory=\co
+fzf_configure_bindings --directory=\co  --variables=
 
 [ -f "$__fish_config_dir/local.fish" ] && source "$__fish_config_dir/local.fish"
